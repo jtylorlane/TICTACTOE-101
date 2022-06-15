@@ -1,5 +1,5 @@
 let board = [
-  ["0-0", "0-1", "0-2"], 
+  ["", "", ""], 
   ["1-0", "1-1", "1-2"], 
   ["2-0", "2-1", "2-2"] 
 ]
@@ -42,7 +42,7 @@ const resetBoard = () => {
   const squares = document.getElementsByTagName("TD");
   
   for (i=0; i < squares.length; i++) {
-    
+
     console.log(squares[i].id)
 
     // sets the innerHTML to null to replace the "X" or "O"
