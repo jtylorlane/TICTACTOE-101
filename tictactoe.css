@@ -7,8 +7,9 @@ td {
   height:150px;
   width:150px;
   text-align: center;
-  border: 5px solid black;
+  border: 5px solid white;
   font-size: 100px;
+  color:white;
 }
 
 table {
@@ -35,7 +36,7 @@ p {
   font-family: 'Poller One', cursive;
   color:rgb(10, 142, 142);
   font-size: larger;
-  background-color: white
+  background-color: white;
   display: inline-block;
 }
 
