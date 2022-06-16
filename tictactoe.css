@@ -1,6 +1,6 @@
 .jumbotron {
   margin: 5% auto;
-  margin-left: 43%;
+  text-align: center; 
 }
 
 td {
@@ -13,4 +13,33 @@ td {
 
 table {
   margin: auto auto;
+}
+
+button {
+background-color: rgb(10, 142, 142);
+padding:10px 10px 10px;
+color: white;
+border: none;
+cursor: pointer;
+
+}
+
+h1 {
+font-family: 'Poller One', cursive;
+background-color: white;
+color: rgb(10, 142, 142);
+
+}
+
+p {
+  font-family: 'Poller One', cursive;
+  color:rgb(10, 142, 142);
+  font-size: larger;
+  background-color: white
+  display: inline-block;
+}
+
+body {
+background-color: rgb(135, 187, 191);
+
 }
